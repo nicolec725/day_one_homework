@@ -1,0 +1,106 @@
+1. mkdir death_star
+cd death_star
+touch darth_vader.txt princess_leia.txt storm_trooper.txt
+
+2.Mkdir galaxy_far_far_away 
+Cd galaxy_far_far_away 
+Mkdir tatooine 
+Cd tatooine 
+Touch luke.txt 
+Touch ben_kenobi.txt 
+
+
+3. mkdir millenium_falcon
+Cd millenium_falcon
+Touch han_solo.txt
+Touch chewbaca.txt
+
+4. Cd tatooine
+Mv ben_kenobi.txt obi_wan.txt 
+
+5. Cd star_wars 
+cp death_star/storm_trooper.txt death_star/tatooine/
+
+6. cd tatooine 
+mv luke.txt millenium_falcon
+mv obi_wan.txt millenium_falcon
+
+7. cd tatooine
+mv millenium_falcon/ ../
+
+8. Cd galaxy_far_far_away
+ mv /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/millenium_falcon /Users/Nicolec/homewrok/star_wars/death_star
+
+9. 
+Cd death_star
+mv  /Users/Nicolec/homewrok/star_wars/death_star/princess_leia.txt /Users/Nicolec/homewrok/star_wars/death_star/millenium_falcon
+
+10.  Cd death_star
+Cd millenium_falcon
+rm obi_wan.txt
+
+11. Cd galaxy_far_far_away
+Mkdir yavin_4 
+
+12. Cd death_star
+mv /Users/Nicolec/homewrok/star_wars/death_star/millenium_falcon /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/yavin_4
+
+13. Cd yavin_4
+Mkdir x_wing
+
+14. Cd millenium_falcon
+mv /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/yavin_4/millenium_falcon/princess_leia.txt /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/yavin_4
+
+14.cd millenium_falcon
+mv /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/yavin_4/millenium_falcon/luke.txt /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/yavin_4/x_wing
+
+15. Cd  yavin_4 
+mv /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/yavin_4/millenium_falcon /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away
+
+
+Cd  yavin_4 
+mv /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/yavin_4/x_wing  /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away
+
+
+16. cd death_star
+Cd ..mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+17. Cd death_star
+mv /Users/Nicolec/homewrok/star_wars/death_star/darth_vader.txt  /Users/Nicolec/homewrok/star_wars/death_star/tie_fighter_1
+
+18. Cd death_star
+cp /Users/Nicolec/homewrok/star_wars/death_star/storm_trooper.txt /Users/Nicolec/homewrok/star_wars/death_star/tie_fighter_3
+
+Cd death_star
+cp /Users/Nicolec/homewrok/star_wars/death_star/storm_trooper.txt /Users/Nicolec/homewrok/star_wars/death_star/tie_fighter_2
+
+
+19. 
+Cd death_star 
+mv /Users/Nicolec/homewrok/star_wars/death_star/tie_fighter_2 /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away
+
+Cd death_star 
+mv /Users/Nicolec/homewrok/star_wars/death_star/tie_fighter_1 /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away
+
+Cd death_star 
+mv /Users/Nicolec/homewrok/star_wars/death_star/tie_fighter_3 /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away
+
+20. Cd galaxy_far_far_away
+rm -r tie_fighter_2 tie_fighter_3
+
+21.cd galaxy_far_far_away
+cd x_wing
+touch the_force.txt
+
+22. Cd star_wars 
+Rm -r death_star 
+
+23. Cd galaxy_far_far_away
+mv /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/millenium_falcon /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/yavin_4 
+
+
+Cd galaxy_far_far_away
+mv /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/x_wing /Users/Nicolec/homewrok/star_wars/galaxy_far_far_away/yavin_4 
+
+
+
